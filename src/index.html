@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    @@include("partials/head.html", { "pageTitle": "SEDEMAC" })
+  </head>
+  
+  <body>
+    <!-- MODALS
+    ================================================== -->
+    @@include("partials/modals.html")
+
+    <!-- NAVBAR
+    ================================================== -->
+    @@include("partials/navbar.html", {
+      "classList": "navbar-light fixed-top bg-white border-bottom",
+      "container": "container-fluid"
+      })
+
+    <!-- WELCOME
+    ================================================== -->
+    <section class="pt-4 pt-md-11">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-5 col-lg-6 order-md-2">
+            <!-- Image -->
+            <img
+              src="assets/img/illustrations/small-engine.png"
+              class="img-fluid mw-md-150 mw-lg-130 mb-6 mb-md-0"
+              alt="..."
+              data-aos="fade-up"
+              data-aos-delay="100"
+            />
+          </div>
+          <div class="col-12 col-md-7 col-lg-6 order-md-1" data-aos="fade-up">
+            <!-- Heading -->
+            <h1 class="display-3 text-center text-md-left">
+              Welcome to <span class="text-warning">SEDEMAC</span>. <br />
+              use our powertrain technology...
+            </h1>
+
+            <!-- Text -->
+            <p class="lead text-center text-md-left text-muted mb-6 mb-lg-8">
+              ...to build state of the art, quick launching electric, gasoline & connected
+              applicaitons.
+            </p>
+
+            <!-- Buttons -->
+            <div class="text-center text-md-left">
+              <a href="overview.html" class="btn btn-warning shadow lift mr-1">
+                Technology
+                <i class="fe fe-arrow-right d-none d-md-inline ml-3"></i>
+              </a>
+              <a href="docs/index.html" class="btn btn-warning shadow lift">
+                Products
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- / .row -->
+      </div>
+      <!-- / .container -->
+    </section>
+
+    <!-- FEATURES
+    ================================================== -->
+    <section class="py-8 py-md-11 border-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4" data-aos="fade-up">
+            <!-- Icon -->
+            <div class="icon text-warning mb-3">
+              @@include("assets/img/icons/duotone-icons/Shopping/Chart-line#1.svg")
+            </div>
+
+            <!-- Heading -->
+            <h3>
+              Built for Scale
+            </h3>
+
+            <!-- Text -->
+            <p class="text-muted mb-6 mb-md-0">
+              Over one million vehicles use SEDEMAC powertrain technology across
+              India.
+            </p>
+          </div>
+          <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="50">
+            <!-- Icon -->
+            <div class="icon text-warning mb-3">
+              @@include("assets/img/icons/duotone-icons/Design/Sketch.svg")
+            </div>
+
+            <!-- Heading -->
+            <h3>
+              First Principles
+            </h3>
+
+            <!-- Text -->
+            <p class="text-muted mb-6 mb-md-0">
+              SEDEMAC owns some of the most advanced IP for powertrain
+              controls & connectivity.
+            </p>
+          </div>
+          <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <!-- Icon -->
+            <div class="icon text-warning mb-3">
+              @@include("assets/img/icons/duotone-icons/Map/Compass.svg")
+            </div>
+
+            <!-- Heading -->
+            <h3>
+              Global Presence
+            </h3>
+
+            <!-- Text -->
+            <p class="text-muted mb-0">
+              SEDEMAC's products see uses across all continents of the Earth.
+            </p>
+          </div>
+        </div>
+        <!-- / .row -->
+      </div>
+      <!-- / .container -->
+    </section>
+
+    <!-- BRANDS
+    ================================================== -->
+    <section class="py-6 py-md-8 border-bottom">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-6 col-sm-4 col-md-2 mb-4 mb-md-0">
+            <!-- Brand -->
+            <div class="img-fluid text-gray-600 mb-2 mb-md-0 svg-shim">
+              @@include("assets/img/brands/logotype/tvsm_gray.svg")
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-2 mb-4 mb-md-0">
+            <!-- Brand -->
+            <div class="img-fluid text-gray-600 mb-2 mb-md-0 svg-shim">
+              @@include("assets/img/brands/logotype/bajaj_gray.svg")
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-2 mb-4 mb-md-0">
+            <!-- Brand -->
+            <div class="img-fluid text-gray-600 mb-2 mb-md-0 svg-shim">
+              @@include("assets/img/brands/logotype/generac_gray.svg")
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-2 mb-4 mb-md-0">
+            <!-- Brand -->
+            <div class="img-fluid text-gray-600 mb-2 mb-md-0 svg-shim">
+              @@include("assets/img/brands/logotype/briggs_gray.svg")
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-2 mb-4 mb-md-0">
+            <!-- Brand -->
+            <div class="img-fluid text-gray-600 mb-2 mb-md-0 svg-shim">
+              @@include("assets/img/brands/logotype/deif_gray.svg")
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-2 mb-4 mb-md-0">
+            <!-- Brand -->
+            <div class="img-fluid text-gray-600 mb-2 mb-md-0 svg-shim">
+              @@include("assets/img/brands/logotype/deif_gray.svg")
+            </div>
+          </div>
+        </div>
+        <!-- / .row -->
+      </div>
+      <!-- / .container -->
+    </section>
+
+    <!-- ABOUT
+    ================================================== -->
+    <section class="pt-8 pt-md-11 bg-gradient-light">
+      <div class="container">
+        <div
+          class="row align-items-center justify-content-between mb-8 mb-md-11"
+        >
+          <div class="col-12 col-md-6 order-md-2" data-aos="fade-left">
+            <!-- Heading -->
+            <h2>
+              World class electronic controls <br />
+              <span class="text-success"></span>
+                for
+                <span
+                  data-toggle="typed"
+                  data-options='{"strings": ["electric powertrains.", "connected vehicles.", "gaoline engines."]}'
+                ></span
+              ></span>
+            </h2>
+
+            <!-- Text -->
+            <p class="font-size-lg text-muted mb-6">
+              Message-1
+            </p>
+
+            <!-- List -->
+            <div class="row">
+              <div class="col-12 col-lg-6">
+                <!-- Item -->
+                <div class="d-flex">
+                  <!-- Check -->
+                  <div
+                    class="badge badge-rounded-circle badge-success-soft mt-1 mr-4"
+                  >
+                    <i class="fe fe-check"></i>
+                  </div>
+
+                  <!-- Text -->
+                  <p class="text-success">
+                    Lifetime updates
+                  </p>
+                </div>
+
+                <!-- Item -->
+                <div class="d-flex">
+                  <!-- Check -->
+                  <div
+                    class="badge badge-rounded-circle badge-success-soft mt-1 mr-4"
+                  >
+                    <i class="fe fe-check"></i>
+                  </div>
+
+                  <p class="text-success mb-lg-0">
+                    Tons of assets
+                  </p>
+                </div>
+              </div>
+              <div class="col-12 col-lg-6 mb-6 mb-md-0">
+                <!-- Item -->
+                <div class="d-flex">
+                  <!-- Check -->
+                  <span
+                    class="badge badge-rounded-circle badge-success-soft mt-1 mr-4"
+                  >
+                    <i class="fe fe-check"></i>
+                  </span>
+
+                  <!-- Text -->
+                  <p class="text-success">
+                    Tech support
+                  </p>
+                </div>
+
+                <!-- Item -->
+                <div class="d-flex">
+                  <!-- Check -->
+                  <div
+                    class="badge badge-rounded-circle badge-success-soft mr-1 mr-4"
+                  >
+                    <i class="fe fe-check"></i>
+                  </div>
+
+                  <!-- Text -->
+                  <p class="text-success mb-0">
+                    Integration ready
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- / .row -->
+          </div>
+          <div
+            class="col-12 col-md-6 col-lg-5 order-md-1"
+            data-aos="fade-right"
+          >
+            <!-- Card -->
+            <div class="card shadow-light-lg lift lift-lg">
+              <!-- Image -->
+              <!-- <img
+                src="assets/img/photos/photo-2.jpg"
+                alt="..."
+                class="card-img-top"
+              /> -->
+
+              <!-- Shape -->
+              <div class="position-relative">
+                <div
+                  class="shape shape-bottom shape-fluid-x svg-shim text-white"
+                >
+                  @@include("assets/img/shapes/curves/curve-1.svg")
+                </div>
+              </div>
+
+              <!-- Body -->
+              <div class="card-body">
+                <!-- Form -->
+                <form>
+                  <div class="form-label-group">
+                    <input
+                      type="text"
+                      class="form-control form-control-flush"
+                      id="cardName"
+                      placeholder="Name"
+                    />
+                    <label for="cardName">Name</label>
+                  </div>
+                  <div class="form-label-group">
+                    <input
+                      type="email"
+                      class="form-control form-control-flush"
+                      id="cardEmail"
+                      placeholder="Email"
+                    />
+                    <label for="cardEmail">Email</label>
+                  </div>
+                  <div class="form-label-group">
+                    <input
+                      type="password"
+                      class="form-control form-control-flush"
+                      id="cardPassword"
+                      placeholder="Password"
+                    />
+                    <label for="cardPassword">Password</label>
+                  </div>
+                  <div class="mt-6">
+                    <button
+                      class="btn btn-block btn-success lift"
+                      type="submit"
+                    >
+                      Get in touch
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- / .row -->
+        <div class="row align-items-center">
+          <div class="col-12 col-md-7 col-lg-6" data-aos="fade-right">
+            <!-- Heading -->
+            <h2>
+              We have lots of experience <br />
+              <span class="text-primary"
+                >building powertrain controls</span
+              >.
+            </h2>
+
+            <!-- Text -->
+            <p class="font-size-lg text-muted mb-6">
+              Message-2
+            </p>
+
+            <!-- List -->
+            <div class="d-flex">
+              <!-- Icon -->
+              <div class="icon text-primary">
+                @@include("assets/img/icons/duotone-icons/Media/Repeat.svg")
+              </div>
+
+              <div class="ml-5">
+                <!-- Heading -->
+                <h4 class="mb-1">
+                  powertrain users since the beginning
+                </h4>
+
+                <!-- Text -->
+                <p class="text-muted mb-6">
+                  We've been developing with powertrain since it was publicly
+                  released in 2007.
+                </p>
+              </div>
+            </div>
+            <div class="d-flex">
+              <!-- Icon -->
+              <div class="icon text-primary">
+                @@include("assets/img/icons/duotone-icons/Code/Code.svg")
+              </div>
+
+              <div class="ml-5">
+                <!-- Heading -->
+                <h4 class="mb-1">
+                  Deep understanding of powertrain
+                </h4>
+
+                <!-- Text -->
+                <p class="text-muted mb-6 mb-md-0">
+                  We've watched powertrain grow up over the years and understand
+                  it better than almost anyone.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-5 col-lg-6">
+            <div
+              class="w-md-150 w-lg-130 position-relative"
+              data-aos="fade-left"
+            >
+              <!-- Shape -->
+              <div
+                class="shape shape-fluid-y shape-blur-4 svg-shim text-gray-200"
+              >
+                @@include("assets/img/shapes/blurs/blur-4.svg")
+              </div>
+
+              <!-- Image -->
+              <div class="img-skewed img-skewed-left">
+                <!-- Image -->
+                <!-- <img
+                  src="assets/img/screenshots/desktop/dashkit.jpg"
+                  class="screenshot img-fluid img-skewed-item"
+                  alt="..."
+                /> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- / .row -->
+      </div>
+      <!-- / .container -->
+    </section>
+
+    <!-- TESTIMONIALS
+    ================================================== -->
+    <section class="pt-8 pt-md-11">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-8 text-center">
+            
+            <!-- Heading -->
+            <h2 class="font-weight-bold">
+              Our customers speak volumes about us.
+            </h2>
+
+            <!-- Text -->
+            <p class="text-muted mb-7 mb-md-9">
+              We work with some of the most successful companies from the U.S. to Japan on how to work as a global team.
+            </p>
+
+          </div>
+        </div> <!-- / .row -->
+        <div class="row">
+          <div class="col-12">
+            
+            <!-- Flickity -->
+            <div class="flickity-viewport-visible pt-2 pb-9" data-flickity='{"cellAlign": "left", "imagesLoaded": true, "pageDots": false, "prevNextButtons": false, "contain": true}'>
+              <div class="col-12 col-md-5 col-lg-4">
+                
+                <!-- Card -->
+                <div class="card card-border shadow-light-lg lift lift-lg" style="border-top-color: #FF5A5F;">
+                  <div class="card-body text-center">
+
+                    <!-- Icon -->
+                    <div class="img-fluid mb-5 w-50 svg-shim mx-auto" style="color: #FF5A5F;">
+                      @@include("assets/img/brands/logotype/airbnb.svg")
+                    </div>
+
+                    <!-- Text -->
+                    <p class="text-gray-700 mb-5">
+                      Uses Landkit to keep their remote teams from around the world in sync. 
+                    </p>
+
+                    <!-- Link -->
+                    <a href="#!" style="color: #FF5A5F;">Read more</a>
+                    
+                  </div>
+                </div>
+
+              </div>
+              <div class="col-12 col-md-5 col-lg-4">
+                
+                <!-- Card -->
+                <div class="card card-border shadow-light-lg lift lift-lg" style="border-top-color: #B81D24;">
+                  <div class="card-body text-center">
+
+                    <!-- Icon -->
+                    <div class="img-fluid mb-5 w-50 svg-shim mx-auto" style="color: #B81D24;">
+                      @@include("assets/img/brands/logotype/netflix.svg")
+                    </div>
+
+                    <!-- Text -->
+                    <p class="text-gray-700 mb-5">
+                      Uses Landkit to document their processes for acquiring shows.
+                    </p>
+
+                    <!-- Link -->
+                    <a href="#!" style="color: #B81D24;">Read more</a>
+                    
+                  </div>
+                </div>
+
+              </div>
+              <div class="col-12 col-md-5 col-lg-4">
+                
+                <!-- Card -->
+                <div class="card card-border shadow-light-lg lift lift-lg" style="border-top-color: #0081C9;">
+                  <div class="card-body text-center">
+
+                    <!-- Icon -->
+                    <div class="img-fluid mb-5 w-50 svg-shim mx-auto" style="color: #0081C9;">
+                      @@include("assets/img/brands/logotype/coinbase.svg")
+                    </div>
+
+
+                    <!-- Text -->
+                    <p class="text-gray-700 mb-5">
+                      Uses Landkit to share their brand assets across their teams.
+                    </p>
+
+                    <!-- Link -->
+                    <a href="#!" style="color: #0081C9;">Read more</a>
+                    
+                  </div>
+                </div>
+
+              </div>
+              <div class="col-12 col-md-5 col-lg-4">
+                
+                <!-- Card -->
+                <div class="card card-border shadow-light-lg lift lift-lg" style="border-top-color: #6772E5;">
+                  <div class="card-body text-center">
+
+                    <!-- Icon -->
+                    <div class="img-fluid mb-5 w-50 svg-shim mx-auto" style="color: #6772E5;">
+                      @@include("assets/img/brands/logotype/stripe.svg")
+                    </div>
+
+
+                    <!-- Text -->
+                    <p class="text-gray-700 mb-5">
+                      Uses Landkit to plan their product development with engineering.
+                    </p>
+
+                    <!-- Link -->
+                    <a href="#!" style="color: #6772E5;">Read more</a>
+                    
+                  </div>
+                </div>
+
+              </div>
+              <div class="col-12 col-md-5 col-lg-4">
+                
+                <!-- Card -->
+                <div class="card card-border shadow-light-lg lift lift-lg" style="border-top-color: #CB2027;">
+                  <div class="card-body text-center">
+
+                    <!-- Icon -->
+                    <div class="img-fluid mb-5 w-50 svg-shim mx-auto" style="color: #CB2027;">
+                      @@include("assets/img/brands/logotype/pinterest.svg")
+                    </div>
+
+
+                    <!-- Text -->
+                    <p class="text-gray-700 mb-5">
+                      Uses Landkit to share financial projections with their investors.
+                    </p>
+
+                    <!-- Link -->
+                    <a href="#!" style="color: #CB2027;">Read more</a>
+                    
+                  </div>
+                </div>
+
+              </div>
+              <div class="col-12 col-md-5 col-lg-4">
+                
+                <!-- Card -->
+                <div class="card card-border shadow-light-lg lift lift-lg" style="border-top-color: #DA5988;">
+                  <div class="card-body text-center">
+
+                    <!-- Icon -->
+                    <div class="img-fluid mb-5 w-50 svg-shim mx-auto" style="color: #DA5988;">
+                      @@include("assets/img/brands/logotype/dribbble.svg")
+                    </div>
+
+                    <!-- Text -->
+                    <p class="text-gray-700 mb-5">
+                      Uses Landkit to plan their priorities for the company quarterly and annually.
+                    </p>
+
+                    <!-- Link -->
+                    <a href="#!" style="color: #DA5988;">Read more</a>
+                    
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    
+    <!-- SHAPE
+    ================================================== -->
+    <div class="position-relative mt-n8">
+      <div class="shape shape-bottom shape-fluid-x svg-shim text-gray-200">
+        @@include("assets/img/shapes/curves/curve-3.svg")
+      </div>
+    </div>
+
+    <!-- STATS
+    ================================================== -->
+    <section class="pt-12 pt-md-13 bg-gray-200">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-5 col-lg-6 order-md-2">
+            <!-- Image -->
+            <!-- <img
+              src="assets/img/illustrations/illustration-8.png"
+              alt="..."
+              class="img-fluid mb-6 mb-md-0"
+            /> -->
+          </div>
+          <div class="col-12 col-md-7 col-lg-6 order-md-1">
+            <!-- Heading -->
+            <h2>
+              Stay focused on your business. <br />
+              <span class="text-primary">Let us handle the engineering</span>.
+            </h2>
+
+            <!-- Text -->
+            <p class="font-size-lg text-gray-700 mb-6">
+              You have a business to run. Stop worring about powertrain
+              controls, designing new ECUs, keeping your components up to date.
+              Let us do that for you.
+            </p>
+
+            <!-- Stats -->
+            <div class="d-flex">
+              <div class="pr-5">
+                <h3 class="mb-0">
+                  <span
+                    data-toggle="countup"
+                    data-from="0"
+                    data-to="10"
+                    data-aos
+                    data-aos-id="countup:in"
+                  ></span
+                  >%
+                </h3>
+                <p class="text-gray-700 mb-0">
+                  Satisfaction
+                </p>
+              </div>
+              <div class="border-left border-gray-300"></div>
+              <div class="px-5">
+                <h3 class="mb-0">
+                  <span
+                    data-toggle="countup"
+                    data-from="0"
+                    data-to="24"
+                    data-aos
+                    data-aos-id="countup:in"
+                  ></span
+                  >/
+                  <span
+                    data-toggle="countup"
+                    data-from="0"
+                    data-to="7"
+                    data-aos
+                    data-aos-id="countup:in"
+                  ></span>
+                </h3>
+                <p class="text-gray-700 mb-0">
+                  Support
+                </p>
+              </div>
+              <div class="border-left border-gray-300"></div>
+              <div class="pl-5">
+                <h3 class="mb-0">
+                  <span
+                    data-toggle="countup"
+                    data-from="0"
+                    data-to="100"
+                    data-aos
+                    data-aos-id="countup:in"
+                  ></span
+                  >k+
+                </h3>
+                <p class="text-gray-700 mb-0">
+                  Sales
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- / .row -->
+      </div>
+      <!-- / .container -->
+    </section>
+
+    <!-- SHAPE
+    ================================================== -->
+    <div class="position-relative">
+      <div class="shape shape-bottom shape-fluid-x svg-shim text-gray-200">
+        @@include("assets/img/shapes/curves/curve-1.svg")
+      </div>
+    </div>
+
+    <!-- FOOTER
+    ================================================== -->
+    @@include("partials/footer.html", { "classList": "bg-gray-200" })
+
+    <!-- JAVASCRIPT
+    ================================================== -->
+    @@include("partials/scripts.html")
+  </body>
+</html>
